@@ -3,9 +3,6 @@ import java.util.*;
 /**
  * Topological Sort using DFS (Depth-First Search) in Java
  *
- * Topological sorting is an ordering of vertices in a Directed Acyclic Graph (DAG)
- * such that for every directed edge u -> v, vertex u comes before vertex v.
- *
  * Algorithm:
  *   1. Perform DFS from each unvisited vertex.
  *   2. After visiting all neighbors of a vertex, push it onto a stack.
